@@ -1,5 +1,6 @@
 import React from 'react';
+import ColoredSquare from '../display/ColoredSquare';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return <ColoredSquare color="#FFFFFF" />;
 }
