@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import style from './square.css';
 
 const ColoredSquare = ({ color }) => (
-	<div className={style.square} style={{backgroundColor: color}}></div>
+	<div className={style.square} style={{background: color}}></div>
 );
 
 ColoredSquare.propTypes = {

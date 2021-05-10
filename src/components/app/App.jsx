@@ -1,6 +1,6 @@
 import React from 'react';
-import ColoredSquare from '../display/ColoredSquare';
+import ColorChanger from '../../containers/ColorChanger';
 
 export default function App() {
-  return <ColoredSquare color="#FFFFFF" />;
+  return <ColorChanger />;
 }
