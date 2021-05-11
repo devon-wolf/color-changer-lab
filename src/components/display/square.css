@@ -1,7 +1,8 @@
 .square {
-	height: 300px;
-	width: 300px;
+	height: 70vh;
+	width: 70vh;
+	max-width: 80vw;
 	border: solid 4px indigo;
 	background-repeat: no-repeat;
-	background-size: 300px 300px;
+	background-size: cover;
 }

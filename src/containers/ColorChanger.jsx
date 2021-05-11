@@ -36,10 +36,12 @@ export default class ColorChanger extends Component {
 
 	render () {
 		return (
+			
 				<ColoredSquare
 					color={this.state.color}
 					meme={this.state.meme}
 				/>
+			
 		);
 	}
 }
